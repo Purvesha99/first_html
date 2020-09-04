@@ -16,3 +16,8 @@ function fibonacci(num){
 	}
 	return num2;
 }
+$(document).ready(function() { 
+            $("button").click(function() { 
+                $("#hello").toggle(); 
+            }); 
+        }); 
